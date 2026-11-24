@@ -1,0 +1,30 @@
+name: WalletSkinLab
+options:
+  deploymentTarget:
+    iOS: '17.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    TARGETED_DEVICE_FAMILY: '1'
+    IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: 'YES'
+    INFOPLIST_KEY_UILaunchScreen_Generation: 'YES'
+    GENERATE_INFOPLIST_FILE: 'YES'
+    CODE_SIGN_STYLE: 'Automatic'
+packages:
+  WalletSkinCore:
+    path: ../Core
+targets:
+  WalletSkinLab:
+    type: application
+    platform: iOS
+    sources:
+      - path: WalletSkinLab
+    dependencies:
+      - package: WalletSkinCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.walletskinlab.integrated
+        PRODUCT_NAME: WalletSkinLab
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "카드 디자인에 사용할 사진을 사용자가 선택할 때만 접근합니다."

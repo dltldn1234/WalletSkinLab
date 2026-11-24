@@ -1,0 +1,31 @@
+[0/1] Planning build
+Building for debugging...
+[0/2] Write swift-version--1BA0962812E73E12.txt
+Build complete! (0.13s)
+Test Suite 'All tests' started at 2026-11-22 15:25:07.231
+Test Suite 'debug.xctest' started at 2026-11-22 15:25:07.233
+Test Suite 'IntegrationTests' started at 2026-11-22 15:25:07.233
+Test Case 'IntegrationTests.testArtManifestExportsMetadataWithoutCardSecrets' started at 2026-11-22 15:25:07.233
+Test Case 'IntegrationTests.testArtManifestExportsMetadataWithoutCardSecrets' passed (0.001 seconds)
+Test Case 'IntegrationTests.testEarlierDeviceDoesNotClaimVerifiedExploit' started at 2026-11-22 15:25:07.234
+Test Case 'IntegrationTests.testEarlierDeviceDoesNotClaimVerifiedExploit' passed (0.0 seconds)
+Test Case 'IntegrationTests.testPatchedDeviceCannotUseAirLift' started at 2026-11-22 15:25:07.234
+Test Case 'IntegrationTests.testPatchedDeviceCannotUseAirLift' passed (0.101 seconds)
+Test Case 'IntegrationTests.testPreviewAdapterDistinguishesPreviewFromRealApply' started at 2026-11-22 15:25:07.335
+Test Case 'IntegrationTests.testPreviewAdapterDistinguishesPreviewFromRealApply' passed (0.0 seconds)
+Test Case 'IntegrationTests.testSourceCatalogProvidesURLs' started at 2026-11-22 15:25:07.335
+Test Case 'IntegrationTests.testSourceCatalogProvidesURLs' passed (0.0 seconds)
+Test Case 'IntegrationTests.testVersionComparison' started at 2026-11-22 15:25:07.336
+Test Case 'IntegrationTests.testVersionComparison' passed (0.0 seconds)
+Test Case 'IntegrationTests.testWorseQueryNeverClaimsWalletCompatibility' started at 2026-11-22 15:25:07.336
+Test Case 'IntegrationTests.testWorseQueryNeverClaimsWalletCompatibility' passed (0.0 seconds)
+Test Suite 'IntegrationTests' passed at 2026-11-22 15:25:07.336
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.103 (0.103) seconds
+Test Suite 'debug.xctest' passed at 2026-11-22 15:25:07.336
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.103 (0.103) seconds
+Test Suite 'All tests' passed at 2026-11-22 15:25:07.336
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.103 (0.103) seconds
+◇ Test run started.
+↳ Testing Library Version: 6.2.1 (c9d57c83568b06d)
+↳ Target Platform: x86_64-unknown-linux-gnu
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
