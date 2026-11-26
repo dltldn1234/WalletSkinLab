@@ -7,7 +7,7 @@
 	<key>classes</key>
 	<dict/>
 	<key>objectVersion</key>
-	<integer>56</integer>
+	<string>56</string>
 	<key>objects</key>
 	<dict>
 		<key>0A3E27B8CA818264D75C8D81</key>
